@@ -1,0 +1,36 @@
+{
+  "name": "opencv4nodejsdist",
+  "version": "3.3.1",
+  "description": "Dist of Asynchronous OpenCV 3.x nodejs bindings with JavaScript and TypeScript API.",
+  "keywords": [
+    "opencv",
+    "cv",
+    "computer vision",
+    "face",
+    "detection",
+    "recognition",
+    "machine",
+    "learning",
+    "neural",
+    "network",
+    "async",
+    "typescript"
+  ],
+  "author": "justadudewhohacks",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justadudewhohacks/opencv4nodejs"
+  },
+  "bugs": {
+    "url": "https://github.com/justadudewhohacks/opencv4nodejs/issues"
+  },
+  "homepage": "https://github.com/justadudewhohacks/opencv4nodejs#readme",
+  "main": "./lib/opencv4nodejs.js",
+  "typings": "./lib/index.d.ts",
+  "scripts": {
+    "postinstall":"node ./scripts/postinstall.js"
+  },
+  "dependencies": {
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "opencv4nodejsdistcreat",
+  "version": "1.0.0",
+  "description": "Binary Dist creator for opencv4nodejs",
+  "main": "",
+  "keywords": [
+    "opencv",
+    "cv",
+    "computer vision",
+    "opencv4nodejs"
+  ],
+  "dependencies": {
+    "opencv4nodejs":"git+https://github.com/justadudewhohacks/opencv4nodejs"
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btsimonh/opencv4nodejsdistcreate"
+  },
+  "bugs": {
+    "url": "https://github.com/btsimonh/opencv4nodejsdistcreate/issues"
+  },
+  "homepage": "https://github.com/btsimonh/opencv4nodejsdistcreate#readme",
+  "scripts": {
+    "start": "node ./scripts/makedist.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "btsimonh",
+  "license": "MIT"
+}
