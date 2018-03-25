@@ -13,7 +13,7 @@ Binary Dist creator for opencv4nodejs
 
 **or npm start ```pathtoopencv4nodejs``` ```pathtodestination```**
 
-**if not destination is specified, then it will create the binary distribution in ```pathtooopenscv4nodejsdistcreate```/dist/**
+**if not destination is specified, then it will create the binary distribution in ```pathtoopenscv4nodejsdistcreate```/dist/**
 
 **once the binary distribution is created, use npm install ```pathtodist``` to install the distribution into your project.  Your project may be on the same or a  very similar machine (depending on how opencv built).  The binary is ~115Mbytes, compared to a full opencv4nodejs install of ~4Gbytes.**
 
